@@ -1,0 +1,285 @@
+Output of docker ps -q
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker ps -q
+cae7da7b6ea3
+bf0b53c5521d
+c7c722c60dc2
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker pull me7777777122/sentiment-analysis-logic
+Using default tag: latest
+latest: Pulling from me7777777122/sentiment-analysis-logic
+Digest: sha256:1c824b7360a247ee41e11918074aaa887687684feaa7959070000868d65765cf
+Status: Image is up to date for me7777777122/sentiment-analysis-logic:latest
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>cd C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-webapp
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-webapp>docker pull me7777777122/sentiment-analysis-web-app
+Using default tag: latest
+latest: Pulling from me7777777122/sentiment-analysis-web-app
+Digest: sha256:11c113b9696dfd5cadbc95969f7e8186c5e793cfa1eedfe52f351d921073abe2
+Status: Image is up to date for me7777777122/sentiment-analysis-web-app:latest
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-webapp>docker run -d -p 5050:5000 me7777777122/sentiment-analysis-logic
+bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-webapp>docker run -d -p 8080:8080 -e SA_LOGIC_API_URL='http://<container_ip or docker machine ip>:5000'
+The system cannot find the file specified.
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-webapp>cd ..
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master>cd logic
+The system cannot find the path specified.
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master
+
+02/13/2019  03:24 PM    <DIR>          .
+02/13/2019  03:24 PM    <DIR>          ..
+02/10/2019  05:19 AM               193 .gitignore
+02/10/2019  05:19 AM             1,155 README.md
+02/13/2019  03:24 PM    <DIR>          resource-manifests
+02/13/2019  03:47 PM    <DIR>          sa-frontend
+02/13/2019  03:24 PM    <DIR>          sa-logic
+02/13/2019  04:13 PM    <DIR>          sa-webapp
+               2 File(s)          1,348 bytes
+               6 Dir(s)  44,347,486,208 bytes free
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master>cd sa-logic
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker run -d -p 8080:8080 -e SA_LOGIC_API_URL='http://<container_ip or docker machine ip>:5000'
+The system cannot find the file specified.
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker run -d -p 8080:8080 -e
+flag needs an argument: 'e' in -e
+See 'docker run --help'.
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker container list
+CONTAINER ID        IMAGE                                      COMMAND                  CREATED             STATUS              PORTS                    NAMES
+bf0b53c5521d        me7777777122/sentiment-analysis-logic      "python3 sentiment_a…"   2 minutes ago       Up 2 minutes        0.0.0.0:5050->5000/tcp   ecstatic_dubinsky
+c7c722c60dc2        me7777777122/sentiment-analysis-frontend   "nginx -g 'daemon of…"   15 minutes ago      Up 15 minutes       0.0.0.0:80->80/tcp       amazing_mendeleev
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker inspect bf0b53c5521d
+[
+    {
+        "Id": "bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da",
+        "Created": "2019-02-13T22:00:34.5804947Z",
+        "Path": "python3",
+        "Args": [
+            "sentiment_analysis.py"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 3090,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2019-02-13T22:00:35.447584Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:6359fa8f497ba84a5ccac1f9000141505e5fbefcbf118fbd66acf2ebb2be0ef2",
+        "ResolvConfPath": "/var/lib/docker/containers/bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da/hostname",
+        "HostsPath": "/var/lib/docker/containers/bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da/hosts",
+        "LogPath": "/var/lib/docker/containers/bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da/bf0b53c5521da8c357aa0bf7fd656ba88a23ce0eba03cb1204b78bb804e3d3da-json.log",
+        "Name": "/ecstatic_dubinsky",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "5000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "5050"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "shareable",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                30,
+                120
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/128500bf9eb4955144008d63d8f9ef7b8cbbab63895d9700adcf0ff31945e31b-init/diff:/var/lib/docker/overlay2/92700b47756db610435b3e565fbf6b3da55b025345aed1cad1c64f7e68e49f04/diff:/var/lib/docker/overlay2/94f9b6854e91aea4070bf36741ce698cc95a02d8edd859ea1ec319310e73cc5b/diff:/var/lib/docker/overlay2/8ae49effce76bfeb9f0bcf54709c259c11c339d55d33013ec26632a164cdfb2d/diff:/var/lib/docker/overlay2/f137e2c7b87a6068b5fe1cf4c826deda0ba8a7cae7588228075dc35499fff151/diff:/var/lib/docker/overlay2/b24776a2dc647c61bc57e9c6bd2b13962fb420d7433821f8e385c3719c9c94ea/diff:/var/lib/docker/overlay2/924f12f4b1b2cd8032d58399b4a3cb4bd4b0b340d9aa60911500a9ab24ff5ea7/diff:/var/lib/docker/overlay2/8535b8c4d0b5e286a23bb108926667b5e98ca365570c659f42c305976aa1939c/diff",
+                "MergedDir": "/var/lib/docker/overlay2/128500bf9eb4955144008d63d8f9ef7b8cbbab63895d9700adcf0ff31945e31b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/128500bf9eb4955144008d63d8f9ef7b8cbbab63895d9700adcf0ff31945e31b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/128500bf9eb4955144008d63d8f9ef7b8cbbab63895d9700adcf0ff31945e31b/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "bf0b53c5521d",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D",
+                "PYTHON_VERSION=3.6.6",
+                "PYTHON_PIP_VERSION=18.1"
+            ],
+            "Cmd": [
+                "sentiment_analysis.py"
+            ],
+            "ArgsEscaped": true,
+            "Image": "me7777777122/sentiment-analysis-logic",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "python3"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "f35292d13cfe3f290cc3ada606b1cf61694fc0d41c663c771217a6f695fe56ac",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "5000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "5050"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/f35292d13cfe",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "c25fdb9d6ef46ddc772750756e14d24efc180cb9c99ac8dbdd174bf8b965c141",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.3",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:03",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "58eea4c0c00fdc5b3658c4addbab4703b35afdfd7aa4dd73fdf2603d3a0bcfde",
+                    "EndpointID": "c25fdb9d6ef46ddc772750756e14d24efc180cb9c99ac8dbdd174bf8b965c141",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\k8s-mastery-master\sa-logic>docker run -d -p 8080:8080 -e SA_LOGIC_API_URL='172.17.0.3:5000' me7777777122/sentiment-analysis-web-app
+cae7da7b6ea3f5fc2f5be032d0056ab3de0d241a23f75c90e9a3b5c6ea18e532

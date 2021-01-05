@@ -1,0 +1,16 @@
+For some reason kubectl is ignoring my hyper-v requests to use my newly created virtual switches.
+I have no idea why its so agreesivly saying "Skipping virtual_switch driver" existing host has virtualbox driver.
+I don't have virtualbox installed???????? what the heck
+
+
+C:\Users\samyu>minikube start --vm-driver hyperv--hyperv-virtual-switch "Primary Virtual Switch"
+Starting local Kubernetes v1.13.2 cluster...
+Starting VM...
+Skipping hyperv--hyperv-virtual-switch driver, existing host has virtualbox driver.
+E0213 17:44:59.796372   13204 start.go:205] Error starting host: Error getting state for host: VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path.
+
+ Retrying.
+E0213 17:44:59.798334   13204 start.go:211] Error starting host:  Error getting state for host: VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path
+
+
+minikube failed :( exiting with error code 1
