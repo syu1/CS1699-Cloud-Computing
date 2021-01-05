@@ -1,0 +1,479 @@
+Microsoft Windows [Version 10.0.17134.590]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\samyu>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu
+
+02/21/2019  05:19 PM    <DIR>          .
+02/21/2019  05:19 PM    <DIR>          ..
+01/18/2019  11:42 AM    <DIR>          .anaconda
+09/12/2018  10:07 AM    <DIR>          .android
+05/22/2018  04:18 PM    <DIR>          .AndroidStudio3.1
+09/28/2018  05:45 PM    <DIR>          .atom
+02/19/2019  04:50 AM    <DIR>          .conda
+02/19/2019  08:36 PM                43 .condarc
+02/13/2019  03:28 PM    <DIR>          .config
+02/13/2019  04:34 PM    <DIR>          .docker
+02/06/2019  01:38 PM    <DIR>          .gem
+09/13/2018  12:34 PM               177 .gitconfig
+09/12/2018  10:07 AM    <DIR>          .gradle
+10/01/2018  01:27 PM    <DIR>          .idlerc
+01/18/2019  01:12 PM    <DIR>          .ipython
+02/18/2019  10:30 PM    <DIR>          .jupyter
+02/13/2019  05:24 PM    <DIR>          .kube
+02/13/2019  04:11 PM    <DIR>          .m2
+01/18/2019  01:12 PM    <DIR>          .matplotlib
+02/13/2019  05:37 PM    <DIR>          .minikube
+02/05/2019  03:12 PM    <DIR>          .oracle_jre_usage
+02/15/2019  07:24 AM    <DIR>          .pylint.d
+02/19/2019  08:36 PM    <DIR>          .spyder-py3
+02/21/2019  05:19 PM    <DIR>          .ssh
+02/13/2019  05:37 PM    <DIR>          .VirtualBox
+09/25/2018  06:46 PM    <DIR>          .vscode
+12/12/2018  07:11 PM    <DIR>          3D Objects
+01/18/2019  11:41 AM    <DIR>          Anaconda3
+08/02/2018  08:18 PM    <DIR>          AndroidStudioProjects
+05/22/2018  11:54 PM    <DIR>          ansel
+02/05/2019  03:13 PM    <DIR>          bluej
+12/12/2018  07:11 PM    <DIR>          Contacts
+12/12/2018  07:11 PM    <DIR>          Desktop
+01/07/2019  12:36 PM    <DIR>          Documents
+02/19/2019  02:01 PM    <DIR>          Downloads
+02/02/2019  07:10 PM    <DIR>          Favorites
+01/24/2019  11:15 PM    <DIR>          Heaven
+12/12/2018  07:11 PM    <DIR>          Links
+01/07/2019  12:37 PM    <DIR>          Music
+02/06/2019  12:39 PM    <DIR>          OneDrive
+05/22/2018  05:08 PM    <DIR>          Pictures
+12/12/2018  07:11 PM    <DIR>          Saved Games
+12/12/2018  07:11 PM    <DIR>          Searches
+02/16/2019  02:19 AM    <DIR>          Videos
+09/03/2018  07:44 PM    <DIR>          VirtualBox VMs
+               2 File(s)            220 bytes
+              43 Dir(s)  73,801,453,568 bytes free
+
+C:\Users\samyu>cd code
+The system cannot find the path specified.
+
+C:\Users\samyu>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu
+
+02/21/2019  05:19 PM    <DIR>          .
+02/21/2019  05:19 PM    <DIR>          ..
+01/18/2019  11:42 AM    <DIR>          .anaconda
+09/12/2018  10:07 AM    <DIR>          .android
+05/22/2018  04:18 PM    <DIR>          .AndroidStudio3.1
+09/28/2018  05:45 PM    <DIR>          .atom
+02/19/2019  04:50 AM    <DIR>          .conda
+02/19/2019  08:36 PM                43 .condarc
+02/13/2019  03:28 PM    <DIR>          .config
+02/13/2019  04:34 PM    <DIR>          .docker
+02/06/2019  01:38 PM    <DIR>          .gem
+09/13/2018  12:34 PM               177 .gitconfig
+09/12/2018  10:07 AM    <DIR>          .gradle
+10/01/2018  01:27 PM    <DIR>          .idlerc
+01/18/2019  01:12 PM    <DIR>          .ipython
+02/18/2019  10:30 PM    <DIR>          .jupyter
+02/13/2019  05:24 PM    <DIR>          .kube
+02/13/2019  04:11 PM    <DIR>          .m2
+01/18/2019  01:12 PM    <DIR>          .matplotlib
+02/13/2019  05:37 PM    <DIR>          .minikube
+02/05/2019  03:12 PM    <DIR>          .oracle_jre_usage
+02/15/2019  07:24 AM    <DIR>          .pylint.d
+02/19/2019  08:36 PM    <DIR>          .spyder-py3
+02/21/2019  05:19 PM    <DIR>          .ssh
+02/13/2019  05:37 PM    <DIR>          .VirtualBox
+09/25/2018  06:46 PM    <DIR>          .vscode
+12/12/2018  07:11 PM    <DIR>          3D Objects
+01/18/2019  11:41 AM    <DIR>          Anaconda3
+08/02/2018  08:18 PM    <DIR>          AndroidStudioProjects
+05/22/2018  11:54 PM    <DIR>          ansel
+02/05/2019  03:13 PM    <DIR>          bluej
+12/12/2018  07:11 PM    <DIR>          Contacts
+12/12/2018  07:11 PM    <DIR>          Desktop
+01/07/2019  12:36 PM    <DIR>          Documents
+02/19/2019  02:01 PM    <DIR>          Downloads
+02/02/2019  07:10 PM    <DIR>          Favorites
+01/24/2019  11:15 PM    <DIR>          Heaven
+12/12/2018  07:11 PM    <DIR>          Links
+01/07/2019  12:37 PM    <DIR>          Music
+02/06/2019  12:39 PM    <DIR>          OneDrive
+05/22/2018  05:08 PM    <DIR>          Pictures
+12/12/2018  07:11 PM    <DIR>          Saved Games
+12/12/2018  07:11 PM    <DIR>          Searches
+02/16/2019  02:19 AM    <DIR>          Videos
+09/03/2018  07:44 PM    <DIR>          VirtualBox VMs
+               2 File(s)            220 bytes
+              43 Dir(s)  73,801,306,112 bytes free
+
+C:\Users\samyu>cd onedrive
+
+C:\Users\samyu\OneDrive>cd documents
+
+C:\Users\samyu\OneDrive\Documents>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu\OneDrive\Documents
+
+02/20/2019  01:28 PM    <DIR>          .
+02/20/2019  01:28 PM    <DIR>          ..
+10/08/2018  02:28 AM            16,905 blog 333.docx
+02/15/2019  04:38 AM    <DIR>          Books
+02/18/2019  11:07 PM    <DIR>          cheatsheet
+02/20/2019  02:21 PM    <DIR>          cheatsheetstat
+02/17/2019  05:44 PM    <DIR>          Code
+05/22/2018  02:25 PM    <DIR>          Custom Office Templates
+02/04/2019  08:48 PM         1,096,996 death certificate request.pdf
+07/04/2018  02:58 PM           481,802 drivers.jpg
+02/04/2019  09:54 PM    <DIR>          Essays
+11/09/2018  06:16 PM    <DIR>          GitHub
+02/06/2019  01:09 PM    <DIR>          hyper-v-provisioning-master
+10/15/2018  06:36 PM            14,580 Julie Ostuka brings to life the hardships of an anonymous Japanese American family before.docx
+09/13/2018  03:36 PM             8,478 Makefile
+01/02/2019  04:22 PM         2,372,331 more-lights.jpg
+07/13/2018  08:49 PM    <DIR>          My Games
+12/13/2018  04:45 AM    <DIR>          My Kindle Content
+08/29/2018  07:23 PM    <DIR>          Neverwinter Nights 2
+05/24/2018  09:28 AM    <DIR>          Notes
+05/22/2018  03:18 PM    <DIR>          Office Lens
+05/22/2018  02:26 PM    <DIR>          OneNote Notebooks
+05/31/2018  09:39 AM       102,577,913 Pitt_Printing_Client_Win64_1710.exe
+11/01/2018  03:23 PM           661,019 ps-pulse-5.3r4.1-releasenotes.pdf
+11/01/2018  03:23 PM        17,289,216 ps-pulse-win-5.3r4.1-b1183-64bitinstaller.msi
+02/04/2019  05:23 PM            36,558 Puzzle Solutions - Pastebin.com.html
+02/04/2019  05:23 PM    <DIR>          Puzzle Solutions - Pastebin.com_files
+01/18/2019  11:40 AM    <DIR>          Python Scripts
+01/07/2019  12:29 PM    <DIR>          Sound recordings
+02/13/2019  05:24 PM    <DIR>          WindowsPowerShell
+              10 File(s)    124,555,798 bytes
+              20 Dir(s)  73,800,597,504 bytes free
+
+C:\Users\samyu\OneDrive\Documents>cd code
+
+C:\Users\samyu\OneDrive\Documents\Code>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu\OneDrive\Documents\Code
+
+02/17/2019  05:44 PM    <DIR>          .
+02/17/2019  05:44 PM    <DIR>          ..
+05/22/2018  03:09 PM    <DIR>          Android App Development
+05/22/2018  03:18 PM    <DIR>          Assembley
+09/30/2018  06:00 PM            14,016 blog 4.docx
+11/30/2018  07:06 PM    <DIR>          C
+02/21/2019  08:52 PM    <DIR>          Cloud Computing
+05/22/2018  03:18 PM    <DIR>          Database
+11/20/2018  05:50 PM    <DIR>          GitHub
+11/08/2018  01:28 PM    <DIR>          Java Code
+05/22/2018  03:18 PM    <DIR>          MATLAB
+08/02/2018  05:07 PM    <DIR>          Perl
+11/13/2018  11:43 PM         3,595,404 project3.tar.gz
+02/18/2019  11:04 PM    <DIR>          Python
+02/06/2019  01:40 PM    <DIR>          Ruby
+02/17/2019  05:44 PM    <DIR>          SQL
+12/19/2018  09:15 PM    <DIR>          Web Development
+               2 File(s)      3,609,420 bytes
+              15 Dir(s)  73,800,597,504 bytes free
+
+C:\Users\samyu\OneDrive\Documents\Code>cd cloud computing
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2445-1A9E
+
+ Directory of C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing
+
+02/21/2019  08:52 PM    <DIR>          .
+02/21/2019  08:52 PM    <DIR>          ..
+02/13/2019  05:51 PM    <DIR>          Assig3files
+02/13/2019  05:52 PM           385,797 Assig3files.zip
+02/13/2019  03:24 PM    <DIR>          k8s-mastery-master
+02/13/2019  03:56 PM    <DIR>          nginx-1.14.2
+01/29/2019  07:11 PM    <DIR>          Project1
+02/21/2019  08:52 PM             2,148 wordcount.java
+               2 File(s)        387,945 bytes
+               6 Dir(s)  73,800,617,984 bytes free
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing>javac wordcount.java
+wordcount.java:14: error: class WordCount is public, should be declared in a file named WordCount.java
+public class WordCount {
+       ^
+wordcount.java:4: error: package org.apache.hadoop.conf does not exist
+import org.apache.hadoop.conf.Configuration;
+                             ^
+wordcount.java:5: error: package org.apache.hadoop.fs does not exist
+import org.apache.hadoop.fs.Path;
+                           ^
+wordcount.java:6: error: package org.apache.hadoop.io does not exist
+import org.apache.hadoop.io.IntWritable;
+                           ^
+wordcount.java:7: error: package org.apache.hadoop.io does not exist
+import org.apache.hadoop.io.Text;
+                           ^
+wordcount.java:8: error: package org.apache.hadoop.mapreduce does not exist
+import org.apache.hadoop.mapreduce.Job;
+                                  ^
+wordcount.java:9: error: package org.apache.hadoop.mapreduce does not exist
+import org.apache.hadoop.mapreduce.Mapper;
+                                  ^
+wordcount.java:10: error: package org.apache.hadoop.mapreduce does not exist
+import org.apache.hadoop.mapreduce.Reducer;
+                                  ^
+wordcount.java:11: error: package org.apache.hadoop.mapreduce.lib.input does not exist
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+                                            ^
+wordcount.java:12: error: package org.apache.hadoop.mapreduce.lib.output does not exist
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+                                             ^
+wordcount.java:17: error: cannot find symbol
+       extends Mapper<Object, Text, Text, IntWritable>{
+               ^
+  symbol:   class Mapper
+  location: class WordCount
+wordcount.java:17: error: cannot find symbol
+       extends Mapper<Object, Text, Text, IntWritable>{
+                              ^
+  symbol:   class Text
+  location: class WordCount
+wordcount.java:17: error: cannot find symbol
+       extends Mapper<Object, Text, Text, IntWritable>{
+                                    ^
+  symbol:   class Text
+  location: class WordCount
+wordcount.java:17: error: cannot find symbol
+       extends Mapper<Object, Text, Text, IntWritable>{
+                                          ^
+  symbol:   class IntWritable
+  location: class WordCount
+wordcount.java:19: error: cannot find symbol
+    private final static IntWritable one = new IntWritable(1);
+                         ^
+  symbol:   class IntWritable
+  location: class TokenizerMapper
+wordcount.java:20: error: cannot find symbol
+    private Text word = new Text();
+            ^
+  symbol:   class Text
+  location: class TokenizerMapper
+wordcount.java:22: error: cannot find symbol
+    public void map(Object key, Text value, Context context
+                                ^
+  symbol:   class Text
+  location: class TokenizerMapper
+wordcount.java:22: error: cannot find symbol
+    public void map(Object key, Text value, Context context
+                                            ^
+  symbol:   class Context
+  location: class TokenizerMapper
+wordcount.java:33: error: cannot find symbol
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
+               ^
+  symbol:   class Reducer
+  location: class WordCount
+wordcount.java:33: error: cannot find symbol
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
+                       ^
+  symbol:   class Text
+  location: class WordCount
+wordcount.java:33: error: cannot find symbol
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
+                            ^
+  symbol:   class IntWritable
+  location: class WordCount
+wordcount.java:33: error: cannot find symbol
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
+                                        ^
+  symbol:   class Text
+  location: class WordCount
+wordcount.java:33: error: cannot find symbol
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
+                                             ^
+  symbol:   class IntWritable
+  location: class WordCount
+wordcount.java:34: error: cannot find symbol
+    private IntWritable result = new IntWritable();
+            ^
+  symbol:   class IntWritable
+  location: class IntSumReducer
+wordcount.java:36: error: cannot find symbol
+    public void reduce(Text key, Iterable<IntWritable> values,
+                       ^
+  symbol:   class Text
+  location: class IntSumReducer
+wordcount.java:36: error: cannot find symbol
+    public void reduce(Text key, Iterable<IntWritable> values,
+                                          ^
+  symbol:   class IntWritable
+  location: class IntSumReducer
+wordcount.java:37: error: cannot find symbol
+                       Context context
+                       ^
+  symbol:   class Context
+  location: class IntSumReducer
+wordcount.java:19: error: cannot find symbol
+    private final static IntWritable one = new IntWritable(1);
+                                               ^
+  symbol:   class IntWritable
+  location: class TokenizerMapper
+wordcount.java:20: error: cannot find symbol
+    private Text word = new Text();
+                            ^
+  symbol:   class Text
+  location: class TokenizerMapper
+wordcount.java:34: error: cannot find symbol
+    private IntWritable result = new IntWritable();
+                                     ^
+  symbol:   class IntWritable
+  location: class IntSumReducer
+wordcount.java:40: error: cannot find symbol
+      for (IntWritable val : values) {
+           ^
+  symbol:   class IntWritable
+  location: class IntSumReducer
+wordcount.java:49: error: cannot find symbol
+    Configuration conf = new Configuration();
+    ^
+  symbol:   class Configuration
+  location: class WordCount
+wordcount.java:49: error: cannot find symbol
+    Configuration conf = new Configuration();
+                             ^
+  symbol:   class Configuration
+  location: class WordCount
+wordcount.java:50: error: cannot find symbol
+    Job job = Job.getInstance(conf, "word count");
+    ^
+  symbol:   class Job
+  location: class WordCount
+wordcount.java:50: error: cannot find symbol
+    Job job = Job.getInstance(conf, "word count");
+              ^
+  symbol:   variable Job
+  location: class WordCount
+wordcount.java:55: error: cannot find symbol
+    job.setOutputKeyClass(Text.class);
+                          ^
+  symbol:   class Text
+  location: class WordCount
+wordcount.java:56: error: cannot find symbol
+    job.setOutputValueClass(IntWritable.class);
+                            ^
+  symbol:   class IntWritable
+  location: class WordCount
+wordcount.java:57: error: cannot find symbol
+    FileInputFormat.addInputPath(job, new Path(args[0]));
+                                          ^
+  symbol:   class Path
+  location: class WordCount
+wordcount.java:57: error: cannot find symbol
+    FileInputFormat.addInputPath(job, new Path(args[0]));
+    ^
+  symbol:   variable FileInputFormat
+  location: class WordCount
+wordcount.java:58: error: cannot find symbol
+    FileOutputFormat.setOutputPath(job, new Path(args[1]));
+                                            ^
+  symbol:   class Path
+  location: class WordCount
+wordcount.java:58: error: cannot find symbol
+    FileOutputFormat.setOutputPath(job, new Path(args[1]));
+    ^
+  symbol:   variable FileOutputFormat
+  location: class WordCount
+41 errors
+(4) ric-edge-01 $ cd private
+(5) ric-edge-01 $ dir
+cs1550  cs1669  cs449  ir  xv6-public
+(6) ric-edge-01 $ cd cs1669
+(7) ric-edge-01 $ dir
+hamlet.txt  JuliusCaesar.txt  Macbeth.txt  RomeoAndJuliet.txt
+(8) ric-edge-01 $ export JAVA_HOME=/usr/java/default
+(9) ric-edge-01 $ export PATH=${JAVA_HOME}/bin:${PATH}
+(10) ric-edge-01 $
+(10) ric-edge-01 $ export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+(11) ric-edge-01 $ bin/hadoop com.sun.tools.javac.Main WordCount.java
+-bash: bin/hadoop: No such file or directory
+(12) ric-edge-01 $ dir
+hamlet.txt  JuliusCaesar.txt  Macbeth.txt  RomeoAndJuliet.txt
+(13) ric-edge-01 $ hadoop com.sun.tools.javac.Main WordCount.java
+/opt/cloudera/parcels/CDH-5.15.1-1.cdh5.15.1.p0.4/bin/../lib/hadoop/bin/hadoop: line 22: cd: .
+/opt/cloudera/parcels/CDH-5.15.1-1.cdh5.15.1.p0.4/bin/../lib/hadoop/bin
+.
+/usr/java/default
+/afs/pitt.edu/home/s/a/say28
+/usr/patch
+/
+/usr
+/usr/local
+/usr/pitt
+/usr/contrib
+/usr/afsws
+/usr/andrew
+/usr/bin
+/usr/openwin
+/opt/SUNWspro
+/
+/usr
+/usr/ccs
+/usr: No such file or directory
+/opt/cloudera/parcels/CDH-5.15.1-1.cdh5.15.1.p0.4/bin/../lib/hadoop/bin/hadoop: line 148: /usr/java/default/bin/java: No such file or directory
+(14) ric-edge-01 $ hadoop
+/opt/cloudera/parcels/CDH-5.15.1-1.cdh5.15.1.p0.4/bin/../lib/hadoop/bin/hadoop: line 22: cd: .
+/opt/cloudera/parcels/CDH-5.15.1-1.cdh5.15.1.p0.4/bin/../lib/hadoop/bin
+.
+/usr/java/default
+/afs/pitt.edu/home/s/a/say28
+/usr/patch
+/
+/usr
+/usr/local
+/usr/pitt
+/usr/contrib
+/usr/afsws
+/usr/andrew
+/usr/bin
+/usr/openwin
+/opt/SUNWspro
+/
+/usr
+/usr/ccs
+/usr: No such file or directory
+Usage: hadoop [--config confdir] COMMAND
+       where COMMAND is one of:
+  fs                   run a generic filesystem user client
+  version              print the version
+  jar <jar>            run a jar file
+  checknative [-a|-h]  check native hadoop and compression libraries availability
+  distcp <srcurl> <desturl> copy file or directories recursively
+  archive -archiveName NAME -p <parent path> <src>* <dest> create a hadoop archive
+  classpath            prints the class path needed to get the
+  credential           interact with credential providers
+                       Hadoop jar and the required libraries
+  daemonlog            get/set the log level for each daemon
+  s3guard              manage data on S3
+  trace                view and modify Hadoop tracing settings
+ or
+  CLASSNAME            run the class named CLASSNAME
+
+Most commands print help when invoked w/o parameters.
+(15) ric-edge-01 $ javac wordcount.java
+bash: javac: command not found...
+Similar command is: 'java'
+(16) ric-edge-01 $
+$ bin/hadoop fs -ls /user/joe/wordcount/input/ /user/joe/wordcount/input/file01 /user/joe/wordcount/input/file02
+
+$ bin/hadoop fs -cat /user/joe/wordcount/input/file01
+Hello World Bye World
+
+$ bin/hadoop fs -cat /user/joe/wordcount/input/file02
+Hello Hadoop Goodbye Hadoop
+
+HERE I just used my computer to download the jar files instead of doing it from the network
