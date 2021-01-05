@@ -1,0 +1,28 @@
+I took a look at the ????? I'm pretty sure the ?????? are supposed to be chinese
+or korean characters. 
+
+First Time I ran the program
+Popular topics in last 120 seconds (690 total):
+#BBMAsTopSocial (91 tweets)
+#SVGala1 (16 tweets)
+#DerangedDonald (14 tweets)
+#BTS? (14 tweets)
+#????? (14 tweets)
+#JIMIN (10 tweets)
+#BTSV (8 tweets)
+#AvengersEndgame (8 tweets)
+#Endgame (8 tweets)
+#BalanceTonPost (8 tweets)
+
+Second Time I ran the program
+Popular topics in last 120 seconds (688 total):
+#BBMAsTopSocial (71 tweets)
+#SVGala1 (13 tweets)
+#????? (13 tweets)
+#BTS (12 tweets)
+#DerangedDonald (11 tweets)
+#DontSpoilTheEndgame (10 tweets)
+#JUNGKOOK (9 tweets)
+#????????_???????_?????? (8 tweets)
+#?? (8 tweets)
+#BTSV (7 tweets)
