@@ -1,0 +1,147 @@
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\tiny-google>python tiny-google-hadoop.py
+Welcome to the tiny-google engine!
+Build inverted-index?(y/n):y
+Building...
+Built!
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: chicken quack rib
+
+keywords = chicken
+
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=6
+Context for up to first 10 hits:
+    Chickens, the way which they stoop'd eagles; slaves,
+
+Context for up to first 10 hits:
+    To guard the chicken from a hungry kite
+
+Context for up to first 10 hits:
+  QUEEN. So the poor chicken should be sure of death.
+
+Context for up to first 10 hits:
+    What, all my pretty chickens and their dam
+
+Context for up to first 10 hits:
+  FOOL. She's e'en setting on water to scald such chickens as you
+
+Context for up to first 10 hits:
+    head, you would eat chickens i' th' shell.
+
+file=PrideandPrejudicebyJaneAusten.txt: count=1
+Context for up to first 10 hits:
+chicken. Elizabeth now began to revive. But not long was the interval of
+
+Keyword quack is NOT in the index!!!
+
+
+keywords = rib
+
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=19
+Context for up to first 10 hits:
+    his ribs, that there is little hope of life in him. So he serv'd
+
+Context for up to first 10 hits:
+    that ever I heard breaking of ribs was sport for ladies.
+
+Context for up to first 10 hits:
+    Mortimer his wife. 'Rivo!' says the drunkard. Call in ribs, call
+
+Context for up to first 10 hits:
+    ribs bare. But, sirrah, make haste. Percy 's already in the
+
+Context for up to first 10 hits:
+    Then join you with them, like a rib of steel,
+
+Context for up to first 10 hits:
+    The flinty ribs of this contemptuous city.
+
+Context for up to first 10 hits:
+    Set at liberty; the fat ribs of peace
+
+Context for up to first 10 hits:
+    Make rich the ribs, but bankrupt quite the wits.
+
+Context for up to first 10 hits:
+    And make my seated heart knock at my ribs,
+
+Context for up to first 10 hits:
+    Vailing her high top lower than her ribs
+
+file=TheAdventuresofSherlockHolmesbyArthurConanDoyle.txt: count=1
+Context for up to first 10 hits:
+band of ribbed silk and the excellent lining. If this man could
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: orange
+
+keywords = orang
+
+file=TheAdventuresofSherlockHolmesbyArthurConanDoyle.txt: count=11
+Context for up to first 10 hits:
+   V. The Five Orange Pips
+
+Context for up to first 10 hits:
+looked like a coster's orange barrow. I should not have thought
+
+Context for up to first 10 hits:
+were--straw, lemon, orange, brick, Irish-setter, liver, clay;
+
+Context for up to first 10 hits:
+ADVENTURE V. THE FIVE ORANGE PIPS
+
+Context for up to first 10 hits:
+dried orange pips, which pattered down upon his plate. I began to
+
+Context for up to first 10 hits:
+envelope in one hand and five dried orange pips in the
+
+Context for up to first 10 hits:
+orange pips.
+
+Context for up to first 10 hits:
+parts, melon seeds or orange pips in others. On receiving this
+
+Context for up to first 10 hits:
+He took an orange from the cupboard, and tearing it to pieces he
+
+Context for up to first 10 hits:
+orange pips which would show them that another, as cunning and as
+
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=2
+Context for up to first 10 hits:
+    civil count--civil as an orange, and something of that jealous
+
+Context for up to first 10 hits:
+    Give not this rotten orange to your friend.
+
+file=AliceAdventuresinWonderlandbyLewisCarroll.txt: count=1
+Context for up to first 10 hits:
+she passed; it was labelled ‘ORANGE MARMALADE’, but to her great
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: newest
+
+keywords = newest
+
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=4
+Context for up to first 10 hits:
+    The oldest sins the newest kind of ways?
+
+Context for up to first 10 hits:
+    The newest state.
+
+Context for up to first 10 hits:
+    Which would be worn now in their newest gloss,
+
+Context for up to first 10 hits:
+  MALCOLM. What's the newest grief?
+
+file=PrideandPrejudicebyJaneAusten.txt: count=1
+Context for up to first 10 hits:
+distribute her presents and describe the newest fashions. When this was
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: exit-1
+
+C:\Users\samyu\OneDrive\Documents\Code\Cloud Computing\tiny-google>

@@ -1,0 +1,240 @@
+Welcome to the tiny-google engine!
+Build inverted-index?(y/n):y
+Building...
+Built!
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: hello help
+Keyword hello is NOT in the index!!!
+
+
+stemmed keyword = help
+
+===Next file===
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=345
+Line that the word appears in:
+  Without thy help, by me be borne alone.
+
+Line that the word appears in:
+  Your shallowest help will hold me up afloat,
+
+Line that the word appears in:
+  I sick withal the help of bath desired,
+
+Line that the word appears in:
+    But found no cure, the bath for my help lies,
+
+Line that the word appears in:
+    Are of a mind: he, that they cannot help him;
+
+Line that the word appears in:
+    They, that they cannot help. How shall they credit
+
+Line that the word appears in:
+    What I can help thee to thou shalt not miss.          Exeunt
+
+Line that the word appears in:
+    A senseless help, when help past sense we deem.
+
+Line that the word appears in:
+    A senseless help, when help past sense we deem.
+
+Line that the word appears in:
+    Thou thought'st to help me; and such thanks I give
+
+===Next file===
+file=TheAdventuresofSherlockHolmesbyArthurConanDoyle.txt: count=55
+Line that the word appears in:
+I could not help laughing at the ease with which he explained his
+
+Line that the word appears in:
+"Never mind him. I may want your help, and so may he. Here he
+
+Line that the word appears in:
+colleague, Dr. Watson, who is occasionally good enough to help me
+
+Line that the word appears in:
+without taking part in it, crowded in to help the lady and to
+
+Line that the word appears in:
+"How did that help you?"
+
+Line that the word appears in:
+assistant. But he could not help me in any way. He could only say
+
+Line that the word appears in:
+Saturday rather complicates matters. I shall want your help
+
+Line that the word appears in:
+starting a chase. All he wants is an old dog to help him to do
+
+Line that the word appears in:
+problems help me to do so."
+
+Line that the word appears in:
+homely ways and simple life that I could not help commenting upon
+
+===Next file===
+file=PrideandPrejudicebyJaneAusten.txt: count=44
+Line that the word appears in:
+could be more natural than his asking you again? He could not help
+
+Line that the word appears in:
+could not help answering her; but she said he seemed quite angry at
+
+Line that the word appears in:
+may never do more than like her, if she does not help him on.”
+
+Line that the word appears in:
+“But she does help him on, as much as her nature will allow. If I can
+
+Line that the word appears in:
+Elizabeth could not help observing, as she turned over some music-books
+
+Line that the word appears in:
+would help it if he could.--Could he be a sensible man, sir?”
+
+Line that the word appears in:
+acquaintance with her, which he could not help flattering himself,
+
+Line that the word appears in:
+help reverting once more to the first, and saying:
+
+Line that the word appears in:
+not often speak unnecessarily to Mr. Collins, she could not help asking
+
+Line that the word appears in:
+instead! her liveliness had never been worse timed. There was no help
+
+===Next file===
+file=BeowulfbyJLesslieHall.txt: count=21
+Line that the word appears in:
+country, he soon persuades Hrothgar of his ability to help him. The hours
+
+Line that the word appears in:
+Goes to the help of Hrothgar against the monster Grendel. Vanquishes
+
+Line that the word appears in:
+          The devil from hell would help them to lighten
+
+Line that the word appears in:
+{I can help your king to free himself from this horrible creature.}
+
+Line that the word appears in:
+          Hand-jointed, hardy, help did afford me;
+
+Line that the word appears in:
+{Fortune helps the brave earl.}
+
+Line that the word appears in:
+          Such as hoped he would bring them help in their sorrow,
+
+Line that the word appears in:
+          His help and His comfort: so he conquered the foeman,
+
+Line that the word appears in:
+       55 And the heavens lower. Now is help to be gotten
+
+Line that the word appears in:
+          A help unto heroes. Heremod became not
+
+===Next file===
+file=AliceAdventuresinWonderlandbyLewisCarroll.txt: count=13
+Line that the word appears in:
+desperate that she was ready to ask help of any one; so, when the Rabbit
+
+Line that the word appears in:
+anxiously about her. ‘Oh, do let me help to undo it!’
+
+Line that the word appears in:
+help me out of THIS!’ (Sounds of more broken glass.)
+
+Line that the word appears in:
+Alice thought decidedly uncivil. ‘But perhaps he can’t help it,’ she
+
+Line that the word appears in:
+‘Oh, you can’t help that,’ said the Cat: ‘we’re all mad here. I’m mad.
+
+Line that the word appears in:
+Alice did not quite know what to say to this: so she helped herself
+
+Line that the word appears in:
+‘I couldn’t help it,’ said Five, in a sulky tone; ‘Seven jogged my
+
+Line that the word appears in:
+with such a puzzled expression that she could not help bursting out
+
+Line that the word appears in:
+not help thinking there MUST be more to come, so she sat still and said
+
+Line that the word appears in:
+‘I can’t help it,’ said Alice very meekly: ‘I’m growing.’
+
+To exit, type 'exit-1'
+Please enter the keyword or keywords you are looking for: chicken corn cob
+
+stemmed keyword = chicken
+
+===Next file===
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=6
+Line that the word appears in:
+    Chickens, the way which they stoop'd eagles; slaves,
+
+Line that the word appears in:
+    To guard the chicken from a hungry kite
+
+Line that the word appears in:
+  QUEEN. So the poor chicken should be sure of death.
+
+Line that the word appears in:
+    What, all my pretty chickens and their dam
+
+Line that the word appears in:
+  FOOL. She's e'en setting on water to scald such chickens as you
+
+Line that the word appears in:
+    head, you would eat chickens i' th' shell.
+
+===Next file===
+file=PrideandPrejudicebyJaneAusten.txt: count=1
+Line that the word appears in:
+chicken. Elizabeth now began to revive. But not long was the interval of
+
+
+stemmed keyword = corn
+
+===Next file===
+file=TheCompleteWorksofWilliamShakespearebyWilliamShakespeare.txt: count=89
+Line that the word appears in:
+  FIRST CITIZEN. Let us kill him, and we'll have corn at our own
+
+Line that the word appears in:
+  MENENIUS. For corn at their own rates, whereof they say
+
+Line that the word appears in:
+    Corn for the rich men only. With these shreds
+
+Line that the word appears in:
+    The Volsces have much corn: take these rats thither
+
+Line that the word appears in:
+    will serve; for once we stood up about the corn, he himself stuck
+
+Line that the word appears in:
+    When corn was given them gratis, you repin'd;
+
+Line that the word appears in:
+  CORIOLANUS. Tell me of corn!
+
+Line that the word appears in:
+    The corn o' th' storehouse gratis, as 'twas us'd
+
+Line that the word appears in:
+    More worthier than their voices. They know the corn
+
+Line that the word appears in:
+    Did not deserve corn gratis. Being i' th' war,
+
+Keyword cob is NOT in the index!!!
+
+To exit, type 'exit-1'
